@@ -6,7 +6,8 @@ class DiceTest {
 
     @Test
     void roll() {
-        
+
+
     }
 
     @Test
