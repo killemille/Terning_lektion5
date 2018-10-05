@@ -8,6 +8,7 @@ class DiceTest {
     void roll() {
 
 
+        //det her er en test
     }
 
     @Test
