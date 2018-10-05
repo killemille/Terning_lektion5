@@ -1,12 +1,16 @@
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class DiceTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void roll() {
+        
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void rollMultiple() {
+
     }
 }
