@@ -78,4 +78,4 @@ class DiceTest {
 
     }
 
-//Inspiret af: https://github.com/trolund/terning/blob/master/DiceTest.java
+//Begge test er inspiret af: https://github.com/trolund/terning/blob/master/DiceTest.java
