@@ -32,6 +32,7 @@ class DiceTest {
      */
 
     @org.junit.jupiter.api.Test
+
     void rollMultiple() {
         Dice Testroll = new Dice();
 
@@ -74,9 +75,7 @@ class DiceTest {
         assertEquals(10000, Fem, 400);
         assertEquals(10000, Seks, 400);
     }
-
-
-
-    }
+}
 
 //Begge test er inspiret af: https://github.com/trolund/terning/blob/master/DiceTest.java
+
