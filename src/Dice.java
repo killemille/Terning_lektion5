@@ -1,15 +1,14 @@
 import java.util.Random;
 
 public class Dice {
-	// roll the die and return the value (1-6)
-	//test
+	// Kast terning og få en værdi (1-6)
 	public int roll() {
 		Random random = new Random();
 		int d1 = random.nextInt();
 		return d1;
 	}
 	
-	// roll the die n times and print the values
+	// Terningen kasten n gange og udskriver værdierne pr. kast
 	public void rollMultiple(int n) {
 		for (int i=0; i<n; i++) {
 			System.out.print(roll() + " ");
