@@ -1,22 +1,38 @@
-import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class DiceTest {
+    /**
+     * @Aurthor SaschaTJ
+     * Tester om terningen kan give andre værdier end 1-6
+     */
 
-    @Test
+    @org.junit.jupiter.api.Test
     void roll() {
+        //Slår med terningen og importeret testobjekt
         Dice Testroll = new Dice();
 
+        //Oprette x som falsk
         Boolean x = false;
-        int terning = Testroll.roll();
-        if ((terning >= 1) && (terning <= 6)) {
+
+        //Resultat af terningen er en int, hvis resultat er mellem 1 og 6 vil x blive sand
+        int rollterning = Testroll.roll();
+        if(rollterning >=1 && rollterning <=6)
             x = true;
-        }
+
+        //Test
         assertEquals(true, x);
+
     }
 
-    @Test
+    /**
+     * @Aurthor Killemille
+     * Tester om alle 6 værdier forkommer lige hyppigt
+     */
+
+    @org.junit.jupiter.api.Test
+
     void rollMultiple() {
         Dice Testroll = new Dice();
 
@@ -62,3 +78,4 @@ class DiceTest {
 }
 
 //Begge test er inspiret af: https://github.com/trolund/terning/blob/master/DiceTest.java
+
