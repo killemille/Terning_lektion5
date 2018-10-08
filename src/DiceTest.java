@@ -43,8 +43,10 @@ class DiceTest {
         int Fem = 0;
         int Seks = 0;
 
+        //Terning kastes 60000 gange.
         for (int i = 0; i < 60000; i++)
         {
+            //Der tælles hvilket tal/øjne der landes på.
             switch(Testroll.roll())
             {
                 case 1:
@@ -68,6 +70,7 @@ class DiceTest {
             }
         }
 
+        //Der testes at terningen er en ægte terning.
         assertEquals(10000, Et, 400);
         assertEquals(10000, To, 400);
         assertEquals(10000, Tre, 400);
